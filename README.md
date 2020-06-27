@@ -8,7 +8,9 @@
     fitness value yielded by the the two cooling methods (for simulated annealing) will be chosen and compared with the 
     best fitness value from the genetic algorithm. 
 
-    I used jupyter notebook to run my code. The following figure shows the importing of relavant packages and initilizations.
-    ![imports.png].(photos/imports.png)
+    I used jupyter notebook to run my code. 
     
+ #### Figure1 - Importing of Relavant packages. MLROSE package was used to call the optimization functions
+   ![djibouti](photos/imports.png)
+   
     

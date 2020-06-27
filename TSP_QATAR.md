@@ -1,6 +1,6 @@
 # 2) TSP Qatar 
 
-## Problem Statement: What is the fastest way to move accross all 38 cities in Djibouti ?
+## Problem Statement: What is the fastest way to move accross all 194 cities in Qatar? My approach here is the same as the Djibouti.
 
 ## Simulated Annealing and the Genetic algorithm are compared to see which gives the best fitness 
 
@@ -11,23 +11,18 @@
 #####    I used jupyter notebook to run my code. 
  
  
- ### Step 1 - Importing of Relavant packages. MLROSE (important) package was used to call the optimization functions
- ###### Figure 1 - Jupyter Notebook Image of Imports
-   ![djibouti](photos/imports.png)
-   
-   
- ### Step 2 - Data Preparation is done in this step. TSP file stored in a dictonary, then the coordinates stored in a list and then eventually an 'optimization object' is                     defined to be used later for different methods/algos  
+ ### Step 1 - Importing the relevant packages and data Preparation is done in this step. TSP file stored in a dictonary, then the coordinates stored in a list and then eventually an 'optimization object' is defined to be used later for different methods/algos  
  ###### Figure 2 - Jupyter Notebook Image of some data preparation lines. 
-   ![prep](photos/prep.png)
+   ![prep](photos/data_prep_qa.png)
    
    
- ### Step 3 - Parameters are Initialized next. Initial temperature, minimum temperature and a decay value are the three parameters that are needed to run the simulated annealing               algorithm. We want to try them on a range of value for each parameter. Since I chose 3 values per parameter in total the algorithm should run 27 times (3x3x3).                   Ofcourse  one of the contraints is that the Initial temperature should be below the minimum temperature hence it will only run 24 times and this is reflected in the code which we can see in the figure of step 4. 
- ###### Figure 3 - Jupyter Notebook Image of Parameters Initialization 
-   ![initiali](photos/intialize_sim.png)
+ ### Step 3 - Parameters are Initialized next.Simmulated Annealing algorithm was run on both the cooling methods, Exponential Decay as well as Arithmatic Decay. Necessary Variables were created and appended in a list. These include the 'best_fitness'(a value indicating the fitness), 'best_state' (the order in which the city should be traversed in) and the 'fitness_curve' (can be plotted) that shows 
+ ###### Figure 3 - Jupyter Notebook Image of Parameters Initialization and Simulated Algorithm being run
+   ![initiali](photos/sim_algo_code.png)
  
    
     
- ### Step 4 - Simmulated Annealing algorithm was run on both the cooling methods, Exponential Decay as well as Arithmatic Decay. Necessary Variables were created and appended in               a list. These include the 'best_fitness'(a value indicating the fitness), 'best_state' (the order in which the city should be traversed in) and the 'fitness_curve'               (can be plotted) that shows
+ ### Step 4 - 
  ###### Figure 4 - Jyputer Notebook Image of the Simulated Algorithm being run.
    ![sim_code](photos/sim_algo_code.png)
    

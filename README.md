@@ -35,3 +35,8 @@
  ### Step 5 - The Results of the simulated annealing are observed and compared. Firstly the minimum of the 24 fitness values for both exponential decay and arthimatic decay are compared. As we can see from the results the fitness value of yielded by simulated annealing with exponential decay cooling method (8485.861466759017) is smaller than that yielded from the arthmatic decay cooling method(8494.710809497905). Hence the conclusion is drawn that the minimum of the exponential decay value will be used to compare with the result from the genetic algorithm later. The index (22) of the minimum value (from a list of 24 fitness values of exp decay) is noted and used to pull out the list from the "best_state_exp_list" (the order in which the cities should be traversed) and plot the fitness curve too. The minimum of the "best_fitness_arithmatic_list" is computed and compared with the minimum of the exp list and we can see below the min value from the exp list is smaller than the min value from the arithmatic list. 
  ###### Figure 5 - Comparing the results of simulated annealing for both the cooling methods. 
    ![res_sim](photos/results_sim.png)
+
+
+### Step 6 - The Genetic Algorithm was run next with three values each for the two parameters that are population and mutation probablitiy. The algorithm will be run 9 times (3x3) and you can see the minimum value for the best_fitness is 17130.. which is way above the one we got from Simulated annealing. Hence it is better to use simulated annealing with exponential cooling to optimize this TSP problem
+###### Figure 5 - Genetic Algorithm and its results. 
+  ![genetic](photos/genetic.png)

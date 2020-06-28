@@ -28,9 +28,9 @@
 
 
 ### Step 4 - The Genetic Algorithm was run next with three values each for the two parameters that are population and mutation probablitiy. The algorithm will be run 9 times (3x3) and you can see the minimum value for the best_fitness is 74302.77138839879.. which is way above the one we got from Simulated annealing. Hence it is better to use simulated annealing with arithmatic cooling to optimize this TSP problem instead of the genetic algorithm.
-###### Figure 5 - Genetic Algorithm and its results. 
-
 ###### Side Notes: It took me 17 hrs and 38 Minutes to run this code 
+
+###### Figure 5 - Genetic Algorithm and its results. 
   ![genetic](photos/genetic_results.png)
 
 

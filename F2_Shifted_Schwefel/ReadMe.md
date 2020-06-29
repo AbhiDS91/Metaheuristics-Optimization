@@ -1,6 +1,6 @@
 # F2 Shifted Schwefel Function Optimization Using the 'Partical Swarm Optimization' Method
 ## Introduction and Setup
-###### Figure 1 - Shifter Sphere Fucntion that will be Optimized
+###### Figure 1 - Shifted Schwel Fucntion that will be Optimized
 ![in](images/sch.png)
 
 ### The 3 functions of this class are the primary internal functions that PSO will use when running the 'Shifted Schwefel' function. 

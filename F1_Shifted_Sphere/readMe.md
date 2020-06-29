@@ -46,6 +46,8 @@
        -33.04804036, -24.76648649,  90.44136625,  43.86410221,
         55.86848707,  23.53173227]
 ###### Figure 7 -Results for dimension 50
-![50](images/results)
+![50](images/results.png)
+###### Figure 8 - Convergence Curve, No. Iterations vs Fitness
+![curve](images/curve_dimension_50_pso.png)
 #### The Best fitness values is -450
 

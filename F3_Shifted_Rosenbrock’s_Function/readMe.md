@@ -33,7 +33,7 @@
        -4.33884959e+01,  2.15802344e+01
         
 ###### Figure 4 - Results for Dimension 50
-![r50](images/results50.png)
+![r50](images/result50.png)
 ###### Figure 5 - Convergence Curve, No. Iterations vs Fitness
 ![curve](images/curve_dimension_50_Rosebrock_pso.png)
 ### The Best fitness values is -450
@@ -175,4 +175,4 @@
 ![r50](images/results500.png)
 ###### Figure 7 - Convergence Curve, No. Iterations vs Fitness
 ![curve](images/curve_dimension_500_Rosenbrock_pso.png)
-### The Best fitness values is -339.61860263
+### The Best fitness values is -450

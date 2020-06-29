@@ -9,7 +9,7 @@
 ###### Figure 3 - Parameters
 ![p](images/properties.png)
 
-### The creation of the pso_optimizer and the running method is the same as the one thorooughly described in the Shifted Sphere ReadMe
+### The creation of the pso_optimizer and the running method is the same as the one thorooughly described in the Shifted Schwefel ReadMe
 
 ## Optimal Result according to the function for Dimension 50
 #### Optimal Interia Factor: 0.5

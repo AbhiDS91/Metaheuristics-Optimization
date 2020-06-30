@@ -1,4 +1,4 @@
-# F5 Shifted Ackley's Function Optimization Using the 'Partical Swarm Optimization' Method
+# F6 Shifted Ackley's Function Optimization Using the 'Partical Swarm Optimization' Method
 ## Introduction and Setup
 ###### Figure 1 - Shifted Ackley's Fucntion that will be Optimized
 ![in](images/func.png)

@@ -35,7 +35,7 @@
 ###### Figure 4 - Results for Dimension 50
 ![r50](images/result50.png)
 ###### Figure 5 - Convergence Curve, No. Iterations vs Fitness
-![curve](images/curve_dimension_50_Ackley_pso.png)
+![curve](images/curve_dimension_50_Ackleys_pso.png)
 ### The Best fitness values is -119.41250266
 
 ## Optimal Result according to the function for Dimension 500
@@ -174,7 +174,7 @@
 ###### Figure 6 - Results for Dimension 500
 ![r50](images/results500.png)
 ###### Figure 7 - Convergence Curve, No. Iterations vs Fitness
-![curve](images/curve_dimension_500_Ackley_pso.png)
+![curve](images/curve_dimension_500_Ackleys_pso.png)
 ### The Best fitness values is -119.06772481
 
 

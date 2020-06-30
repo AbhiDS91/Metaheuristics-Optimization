@@ -3,7 +3,7 @@
 ###### Figure 1 - Shifted Rosenbrock's Fucntion that will be Optimized
 ![in](images/func.png)
 
-### The 3 functions of this class are the primary internal functions that PSO will use when running the 'Shifted Rosenbrock' function. 
+### The 3 functions of this class are the primary internal functions that PSO will use when running the 'Shifted Rastrigin' function. 
 ###### Figure 2 - Class definition
 ![class](images/class.png)
 ###### Figure 3 - Parameters
